@@ -1,10 +1,16 @@
 //AIM: Set Java Environment, Compile and execute sample java program to print “Hello World”.
 
 //CODE:
+//first we have created hello class which is public
 public class hello
 {
+//here is main method which is public we can use it from anywhere.
+//static method can be used without creating an object.
+//return tye is void.
+//method name is main
 	public static void main(String args[])
 	{
-		System.out.println("Hello World");
+	
+		System.out.println("Hello World!!");
 	}
 }
